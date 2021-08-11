@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/LOGO Design ( WHITE ).png" />
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yesvee | Home</title>
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v10.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution="setup_tool" page_id="104801065089611">
+    </div>
+    <!--Header Starts-->
+    <header>
+        <div class="container">
+            <div class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="index_fbchat.html" class="logo"><img src="/images/YESVEE LOGO HORIZONTAL ( WHITE ).png" alt=""></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#feature" class="nav-link">Features</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="/R&D/R&D_index.html" class="nav-link">R&D Development</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="#about-us" class="nav-link">Become a partner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-us" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Header Ends-->
+    <!--Hero Starts-->
+    <section class="hero" id="hero">
+        <div class="container">
+            <h2 class="sub-headlines">
+                ON DEMAND DELIVERY SERVICE
+            </h2>
+            <div class="headline-description">
+                <div class="separator">
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+                <h2 class="headline">
+                    <br>
+                    Hyper local delivery service on demand within chennai. <br><br>
+                    Buy most things from local shops with our "Buy for Me" Service. <br><br>
+                    <h2 class="sub-headlines">
+                        AVAILABLE IN
+                    </h2>
+                </h2>
+                <br>
+                <br>
+                <div class="img-badge flex-container" >
+                    <a href="https://apps.apple.com/in/app/yesvee/id1575204708"><img class="badge animate-left" src="images/app-store-badge.png" alt=""></a>
+                    <a href="https://play.google.com/store/apps/details?id=yesvee.user"><img class="badge animate-right" src="images/google-play-badge.png" alt=""></a>
+                </div>
+                <div class="single-animation">
+                    <br>
+                    <br>
+                    <br>
+                    <a href="#products" class="btn cta-btn">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Hero Ends-->
+    <!--Discover our Products Starts-->
+    <section class="discover-our-menu" id="products">
+        <div class="container" style="max-width: 200rem;">
+            <div class="story-info">
+                <div class="padding-right animate-left">
+                    <video autoplay muted loop id="video">
+                        <source src="/video/screenshots.mp4">
+                    </video>
+                </div>
+                <div class="story-description animate-right">
+                    <div class="global-headline">
+                        <h1 class="headline headline-dark"
+                            style="color: var(--secondary-font-color); font-size: 3.8rem;">why yesvee ?</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>Manage your time doing better and productive things.</p>
+                    <br>
+                    <p>We know how big of a hassle it is to ride in the local traffic. Leave the hassle to us,
+                        Concentrate on better things or simply relax.</p>
+                    <br>
+                    <p>Step 1 : Open YESVEE App.</p>
+                    <br>
+                    <p>Step 2 : Request delivery or a purchase from local store</p>
+                    <a href="#spec" class="btn cta-btn">View our features</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container" id="feature">
+            <div class="blog-post animate-left" id="spec">
+                <div class="blog-post-info" id="feature-post">
+                    <h1 class="blog-post-title">Features:</h1>
+                    <div class="blog-post animate-right">
+                        <div class="blog-post-img">
+                            <img src="/images/same day delivery.png" alt="">
+                        </div>
+                        <div class="blog-post-info">
+                            <h1 class="blog-post-title">same day delivery<br></h1>
+                        </div>
+                    </div>
+                    <div class="blog-post animate-right">
+                        <div class="blog-post-img">
+                            <img src="/images/Minimum Order.png" alt="">
+                        </div>
+                        <div class="blog-post-info">
+                            <h1 class="blog-post-title">no minimum order amount<br></h1>
+                        </div>
+                    </div>
+                    <div class="blog-post animate-right">
+                        <div class="blog-post-img">
+                            <img src="/images/schedule delivery.png" alt="">
+                        </div>
+                        <div class="blog-post-info">
+                            <h1 class="blog-post-title">scheduled delivery<br></h1>
+                        </div>
+                    </div>
+                    <div class="blog-post animate-right">
+                        <div class="blog-post-img">
+                            <img src="/images/pollution free.png" alt="">
+                        </div>
+                        <div class="blog-post-info">
+                            <h1 class="blog-post-title">pollution-free service<br></h1>
+                        </div>
+                    </div>
+                    <div class="blog-post animate-right">
+                        <div class="blog-post-img">
+                            <img src="/images/Live Tracking.png" alt="">
+                        </div>
+                        <div class="blog-post-info">
+                            <h1 class="blog-post-title">live order tracking</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Discover our Product Ends-->
+    <!--Quote-2 Starts-->
+    <section class="quote between">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="head">
+                        <span>T</span>o have clean air in cities,
+                    </h2>
+                </div>
+                <div class="animate-bottom">
+                    <h1 class="headline">You have to go electric. <h2 class="head"><span>-E</span>lon musk</h2> <br>
+                        <img src="/images/favicon.png" class="logo1" alt=""> </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Quote-2 Ends-->
+    <!--Discover our story Starts-->
+    <section class="discover-our-story" id="about-us">
+        <div class="container">
+            <div class="story-info">
+                <div class="story-description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">B</span>ecome
+                        </h2>
+                        <h1 class="headline headline-dark">a delivery partner</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>"A BEAUTIFUL EARTH IS THE BEST ASSET ONE CAN PASS ON TO NEXT GENERATION"<br>
+                        It all began with a simple mission to achieve pollution-free surrounding. That is why our fleet
+                        is completely electric..
+                        <br>
+                        <br>
+                        <p style="color: #39b54a;"> SIGN UP AS DELIVERY PARTNER IN OUR APP <br>
+                        AVAILABLE IN </p>
+                    </p>
+                    <div class="img-badge" style="justify-content: center;" >
+                        <a href="https://play.google.com/store/apps/details?id=yesvee.user"><img class="badge animate-bottom" src="images/google-play-badge.png" alt=""></a>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="#contact-us" class="btn cta-btn">contact us</a>
+                </div>
+                <div class="restaurant-info-img animate-right">
+                    <img src="/images/Post - Square ( Website ).jpg" alt="">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Discover our story Ends-->
+    <!--Quote-1 Starts-->
+    <section class="quote between">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="head">
+                        <span>F</span>orget gasoline
+                    </h2>
+                </div>
+                <div class="animate-bottom">
+                    <h1 class="headline">Plugin. Drive. Repeat. <br><img src="/images/favicon.png" class="logo1" alt="">
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Quote-1 Ends-->
+    <!--Contact us Starts-->
+    <div class="contact-us" id="contact-us">
+        <div class="address container-fluid animate-left">
+            <h2 style="font-size: 3.5rem;">
+                Contact us<br /><br />
+            </h2>
+            <h2 style="font-size: 3.5rem;">
+                Address:<br /><br />
+            </h2>
+            <h5 style="font-family: 'Barlow Condensed'; font-size: 3rem;">
+                271/11, 3rd St, Ram Nagar,</br>
+                Velachery,</br>
+                Chennai 600096,</br>
+                Tamil Nadu.</br><br />
+                <a href="https://goo.gl/maps/weSAKacXYptBRBZA9" class="btn cta-btn ctbtn" style="margin-bottom: 2%;">
+                    <b> Click here to open maps</b></a>
+            </h5>
+            <h2>Contact number:</h2>
+            <h5><a href="tel:(+91) 8667382514" class="btn cta-btn">(+91) 866 738 2514</a><br /><br /></h5>
+            <h2>Email ID:</h2>
+            <h5><a href="mailto:raja@yesvee.in" class="btn cta-btn">raja@yesvee.in</a></h5>
+        </div>
+    </div>
+    <!--Contact us Ends-->
+    <footer>
+        <div class="footer">
+            <div class="back-to-top">
+                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-about animate-top" style="font-family: 'Cabin';">
+                    <br><br>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="/privacy_policy/privacy_policy.html" class="nav-link">Privacy policy</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="/T&C/T&C.html" class="nav-link">Terms and Conditions</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#FAQ" class="nav-link">FAQ</a>
+                        </li>
+                        <!-- <li class="footer-item">
+                            <a href="/R&D/R&D_index.html" class="nav-link">R&D Projects</a>
+                        </li> -->
+                        <li class="footer-item">
+                            <a href="#contact-us" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                    </h4>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                </div>
+                <div class="footer-content-divider animate-bottom">
+                    <div class="social-media" style="font-family: 'Cabin';">
+                        <h4>Follow along</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://twitter.com/yesveetech"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/yesveetech"><i
+                                        class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCrMQHxXHi0fpdO8W1pVfoAw/featured"><i
+                                        class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/yesvee-engineering-private-limited"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/yesveetech"><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
